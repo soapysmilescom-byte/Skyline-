@@ -1,0 +1,6 @@
+{
+  "name": "PixelBridge - 3D Video Studio",
+  "description": "PixelBridge - Create 3D animated motion birthday videos and invitations with child photo, custom text, fairytale train animations, and high-quality exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

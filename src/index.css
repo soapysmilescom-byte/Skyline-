@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .animate-float-gently {
+    animation: floatGently 4s ease-in-out infinite;
+  }
+  .animate-steam-puff {
+    animation: steamPuff 2s ease-out infinite;
+  }
+  .animate-sparkle-glow {
+    animation: sparkleGlow 2s ease-in-out infinite;
+  }
+  .font-sans-clean {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  }
+}
+
+@keyframes floatGently {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(1deg);
+  }
+}
+
+@keyframes steamPuff {
+  0% {
+    opacity: 0.8;
+    transform: scale(0.6) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.6) translateY(-40px);
+  }
+}
+
+@keyframes sparkleGlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
